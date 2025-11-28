@@ -1,0 +1,220 @@
+<title>Mike Wazowski Cartoon</title>
+
+<style>
+    body {
+    background: url("assets/monsterinc.png") 
+        no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial;
+}
+
+
+    .mike {
+        width: 280px;
+        height: 280px;
+        background: #7cd330;
+        border-radius: 50%;
+        position: relative;
+        border: 6px solid #3c3c3c;
+        
+    }
+    
+
+    /* Spike Horns */
+    .horn {
+        width: 60px;
+        height: 60px;
+        background: #f4c8b6;
+        position: absolute;
+        top: -15px;
+        border: 4px solid #3c3c3c;
+        clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    }
+    .horn.left {
+        left: 25px;
+        transform: rotate(-20deg);
+    }
+    .horn.right {
+        right: 25px;
+        transform: rotate(20deg);
+    }
+
+    /* Arms */
+    .arm {
+        width: 70px;
+        height: 15px;
+        background: #7cd330;
+        border: 4px solid #3c3c3c;
+        border-radius: 20px;
+        position: absolute;
+        top: 120px;
+    }
+
+    .arm.left {
+        left: -60px;
+        transform: rotate(20deg);
+    }
+
+    .arm.right {
+        right: -60px;
+        transform: rotate(-20deg);
+    }
+
+    /* Hands */
+    .hand {
+        width: 35px;
+        height: 35px;
+        background: #7cd330;
+        border: 4px solid #3c3c3c;
+        border-radius: 50%;
+        position: absolute;
+        top: 105px;
+    }
+    .hand.left {
+        left: -85px;
+    }
+    .hand.right {
+        right: -85px;
+    }
+
+    /* Legs */
+    .leg {
+        width: 25px;
+        height: 90px;
+        background: #7cd330;
+        border: 4px solid #3c3c3c;
+        border-radius: 30px;
+        position: absolute;
+        bottom: -70px;
+    }
+
+    .leg.left {
+        left: 70px;
+        transform: rotate(4deg);
+    }
+
+    .leg.right {
+        right: 70px;
+        transform: rotate(-4deg);
+    }
+
+    /* Feet */
+    .foot {
+        width: 55px;
+        height: 30px;
+        background: #7cd330;
+        border: 4px solid #3c3c3c;
+        border-radius: 40px;
+        position: absolute;
+        bottom: -95px;
+    }
+
+    .foot.left {
+        left: 50px;
+    }
+
+    .foot.right {
+        right: 50px;
+    }
+
+    /* Big Eye */
+    .eye {
+        width: 150px;
+        height: 150px;
+        background: white;
+        border-radius: 50%;
+        position: absolute;
+        top: 40px;
+        left: 50%;
+        transform: translateX(-50%);
+        border: 5px solid #3c3c3c;
+    }
+
+    .iris {
+        width: 70px;
+        height: 70px;
+        background: #2ca7e8;
+        border-radius: 50%;
+        position: absolute;
+        top: 40px;
+        left: 50%;
+        transform: translateX(-50%);
+        border: 5px solid #0a1d2d;
+    }
+
+    .pupil {
+        width: 30px;
+        height: 30px;
+        background: black;
+        border-radius: 50%;
+        position: absolute;
+        top: 52px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    /* Smile */
+    .mouth {
+        width: 170px;
+        height: 70px;
+        background: #000;
+        border-bottom-left-radius: 100px;
+        border-bottom-right-radius: 100px;
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        overflow: hidden;
+        border: 5px solid #3c3c3c;
+    }
+
+    .teeth {
+        width: 200px;
+        height: 70px;
+        background: white;
+        position: absolute;
+        top: -15px;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 20px;
+        clip-path: polygon(0 50%, 10% 0, 20% 50%, 30% 0, 40% 50%, 50% 0, 60% 50%, 70% 0, 80% 50%, 90% 0, 100% 50%);
+    }
+
+</style>
+</head>
+<body>
+
+<div class="mike">
+    <div class="horn left"></div>
+    <div class="horn right"></div>
+
+    <div class="arm left"></div>
+    <div class="arm right"></div>
+
+    <div class="hand left"></div>
+    <div class="hand right"></div>
+
+    <div class="leg left"></div>
+    <div class="leg right"></div>
+
+    <div class="foot left"></div>
+    <div class="foot right"></div>
+
+    <div class="eye">
+        <div class="iris"></div>
+        <div class="pupil"></div>
+    </div>
+
+    <div class="mouth">
+        <div class="teeth"></div>
+    </div>
+</div>
+
+
+</body>
+</html>

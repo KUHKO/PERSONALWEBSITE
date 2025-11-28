@@ -1,0 +1,169 @@
+<title>Experience - Kuh Jane</title>
+    <style>
+        body {
+            font-family: Georgia, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #ffffff;
+            color: #222;
+        }
+        /* TOP NAVIGATION */
+        .navbar {
+            background: #4982ec;
+            padding: 15px 40px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: white;
+        }
+        .logo { font-size: 24px; font-weight: bold; }
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 16px;
+            font-weight: bold;
+            transition: 0.2s;
+        }
+        .nav-links a:hover { opacity: 0.8; }
+
+        /* MAIN CONTENT */
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 60px 80px;
+            gap: 30px;
+        }
+        .left img {
+            width: 420px;
+            max-width: 100%;
+            border-radius: 10px;
+            object-fit: cover;
+            border: 3px solid #dfeefe;
+        }
+        .right {
+            width: 50%;
+            padding-left: 30px;
+        }
+        .right h1 {
+            font-size: 48px;
+            font-weight: 900;
+            margin: 0 0 8px 0;
+            color: #2a2a2a;
+        }
+        .right h2 {
+            color: #4982ec;
+            margin: 18px 0 8px 0;
+            font-size: 20px;
+        }
+        .right p, .right li {
+            color: #555;
+            font-size: 16px;
+            line-height: 1.7;
+        }
+        .right ul { margin-left: 18px; }
+
+        /* bottom-right fixed buttons */
+        .nav-actions{
+            position: fixed;
+            right: 24px;
+            bottom: 24px;
+            display: flex;
+            gap: 10px;
+            z-index: 999;
+        }
+        .nav-actions a{
+            display:inline-block;
+            padding:10px 14px;
+            background:#4982ec;
+            color:#fff;
+            text-decoration:none;
+            border-radius:8px;
+            font-weight:700;
+            box-shadow:0 6px 18px rgba(18,32,70,0.08);
+        }
+        .nav-actions a:hover{ background:#356bd1; transform:translateY(-2px); }
+
+        @media (max-width:900px) {
+            .container { flex-direction: column; padding: 24px; }
+            .right { width: 100%; padding-left: 0; }
+            .left img { max-width: 320px; }
+        }
+
+        .fancy-btn {
+    position: absolute;
+    bottom: -250px;
+    right: 255px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: linear-gradient(90deg, #2f7bd9, #1a5bb8);
+    color: white;
+    padding: 12px 22px;
+    border-radius: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+    transition: 0.2s ease-in-out;
+}
+
+.fancy-btn:hover {
+    transform: scale(1.07);
+    box-shadow: 0 8px 22px rgba(0,0,0,0.35);
+}
+.fancy-btn .icon {
+    font-size: 10px;
+}
+    </style>
+</head>
+<body>
+
+<!-- TOP NAVIGATION -->
+<div class="navbar">
+    <div class="logo">MY PERSONAL PAGE</div>
+    <div class="nav-links">
+        <a href="RESUME.html">Resume</a>
+        <a href="main.html">Home</a>
+        <a href="aboutme.html">About Me</a>
+        <a href="experience.html">Experience</a>
+        <a href="education&skills.html">Education & Achievements</a>
+    </div>
+</div>
+
+<!-- MAIN CONTENT -->
+<div class="container">
+    <div class="left">
+        
+        <img src="assets/meme3.jpg" alt="Project screenshot or profile">
+    </div>
+
+    <div class="right">
+        <h1>SKILLS & EXPERIENCE</h1>
+
+        <h2>Skills</h2>
+        <p>I design digital projects and enjoy learning new programming languages. I build small programs and projects to improve my logic, creativity, and problem-solving.</p>
+        <ul>
+            <li>UI / UX design for simple web and mobile interfaces</li>
+            <li>Frontend: HTML & CSS; basic JavaScript concepts</li>
+            <li>Backend fundamentals & data structures learned from coursework</li>
+            <li>Android Studio — building small Android apps</li>
+            <li>Problem solving, debugging, and iterative project development</li>
+            <li>Version control basics (Git)</li>
+        </ul>
+
+        <h2>Experience (college projects)</h2>
+        <p>During our college journey I worked on several team and individual projects including UI, frontend, and backend work. Notable projects include:</p>
+        <ul>
+            <li><strong>Payroll Management System</strong> — contributed to UI layouts and basic backend logic (calculations, data storage prototypes).</li>
+            <li><strong>Ordering System (Android)</strong> — built screens and flow in Android Studio; implemented order entry and basic local storage logic.</li>
+            <li><strong>Simple UI / Frontend Projects</strong> — multiple small web pages and interfaces for class assignments (responsive basics, clean layouts).</li>
+        </ul>
+
+    </div>
+</div>
+ <a href="cartoon.html" class="fancy-btn">
+    CANVAS ART PROJECT
+
+</body>
+</html>
